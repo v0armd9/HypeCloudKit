@@ -51,10 +51,6 @@
                     <navigationItem key="navigationItem" id="9G7-wL-Fpt">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="XZl-by-j6E"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="hypeMessageLabel" destination="eo2-5u-3w9" id="nxf-V2-DhO"/>
-                        <outlet property="timestampLabel" destination="6Vz-jQ-HG2" id="B0F-Ca-OkJ"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lJk-8L-gTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

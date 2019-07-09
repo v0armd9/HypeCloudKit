@@ -9,11 +9,9 @@
 import UIKit
 
 class HypeTableViewController: UITableViewController {
-    
-    @IBOutlet weak var hypeMessageLabel: UILabel!
-    @IBOutlet weak var timestampLabel: UILabel!
-    
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

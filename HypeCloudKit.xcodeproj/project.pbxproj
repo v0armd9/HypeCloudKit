@@ -14,6 +14,7 @@
 		2C257D3D22D4F462002CFE7A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C257D3C22D4F462002CFE7A /* CloudKit.framework */; };
 		2C257D3F22D4F7DB002CFE7A /* HypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C257D3E22D4F7DB002CFE7A /* HypeTableViewController.swift */; };
 		2C257D4122D4F9F9002CFE7A /* Hype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C257D4022D4F9F9002CFE7A /* Hype.swift */; };
+		2C257D4322D50025002CFE7A /* HypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C257D4222D50025002CFE7A /* HypeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2C257D3C22D4F462002CFE7A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		2C257D3E22D4F7DB002CFE7A /* HypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeTableViewController.swift; sourceTree = "<group>"; };
 		2C257D4022D4F9F9002CFE7A /* Hype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hype.swift; sourceTree = "<group>"; };
+		2C257D4222D50025002CFE7A /* HypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		2C257D3722D4F429002CFE7A /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C257D4222D50025002CFE7A /* HypeController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C257D2222D4F3AD002CFE7A /* AppDelegate.swift in Sources */,
+				2C257D4322D50025002CFE7A /* HypeController.swift in Sources */,
 				2C257D3F22D4F7DB002CFE7A /* HypeTableViewController.swift in Sources */,
 				2C257D4122D4F9F9002CFE7A /* Hype.swift in Sources */,
 			);
