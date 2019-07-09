@@ -16,13 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+        let hypeC = HypeController()
         let testHype = "Are you there jesus?"
+        hypeC.fetchHype { (success) in
+            for hype in hypeC.hypes {
+                print(hype.hypeText)
+            }
+        }
+        
         HypeController.init().saveHype(text: testHype) { (success) in
             if success {
                 print("✝︎Jesus is there!")
             }
         }
+        
         
         return true
     }
